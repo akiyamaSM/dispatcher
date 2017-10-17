@@ -5,56 +5,59 @@ namespace App\Events;
 
 class Dispatcher {
 
-    protected $actions = [];
+    protected $listeners = [];
 
     /**
-     * Push handler into list of actions
+     * Push handler into list of listeners
      *
      * @param $event
      * @param $handler
      * @return $this
      */
-    public function addAction($event, $handler)
+    public function addListeners($event, $handler)
     {
-        $this->actions[$event][] = $handler;
+        $this->listeners[$event][] = $handler;
         return $this;
     }
 
     /**
-     * Check if the event has actions
+     * Check if the event has listeners
      * 
      * @param $event
      * @return bool
      */
-    public function hasActions($event)
+    public function hasListeners($event)
     {
-        return isset($this->actions[$event]);
+        return isset($this->listeners[$event]);
     }
 
     /**
-     * Get Actions based on the name of Event
+     * Get Listeners based on the name of Event
      *
      * @param $event
      * @return array
      */
-    public function getActionsByEventName($event)
+    public function getListenersByEventName($event)
     {
-        if(! $this->hasActions($event)){
+        if(! $this->hasListeners($event)){
             return [];
         }
 
-        return $this->actions[$event];
+        return $this->listeners[$event];
     }
 
     /**
-     * Run the actions
+     * Run the listeners
      *
      * @param $event
      */
-    public function action($event)
+    public function dispatch($event)
     {
-        foreach($this->getActionsByEventName($event->getName()) as $action){
-            $action->handle($event);
+        foreach($this->getListenersByEventName($event->getName()) as $action){
+            $continue = $action->handle($event);
+            if(!$continue){
+                break;
+            }
         }
     }
 }

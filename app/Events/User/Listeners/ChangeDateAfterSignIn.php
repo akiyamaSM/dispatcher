@@ -1,12 +1,10 @@
 <?php
-
 namespace App\Events\User\Listeners;
+
 use App\Events\Event;
 use App\Events\Listener;
 
-
-
-class SendSignInEmail extends Listener{
+class ChangeDateAfterSignIn extends Listener{
 
     /**
      * @param Event $event
@@ -14,7 +12,6 @@ class SendSignInEmail extends Listener{
      */
     public function handle(Event $event)
     {
-        echo "Sending Email To {$event->user->email}";
-        return false;
+        echo "Changing Sign In date to now";
     }
 }

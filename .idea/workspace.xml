@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="Dispatcher.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7045101" vertical-offset="117" max-vertical-offset="798">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.5640244" vertical-offset="1796" max-vertical-offset="2584">
+              <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -43,10 +43,11 @@
         <option value="$PROJECT_DIR$/app/Events/Event.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/app/Events/Listener.php" />
-        <option value="$PROJECT_DIR$/app/Events/User/Listeners/SendSignInEmail.php" />
         <option value="$PROJECT_DIR$/app/Events/User/UserSignedIn.php" />
-        <option value="$PROJECT_DIR$/app/Events/Dispatcher.php" />
+        <option value="$PROJECT_DIR$/app/Events/User/Listeners/ChangeDateAfterSignIn.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/Events/User/Listeners/SendSignInEmail.php" />
+        <option value="$PROJECT_DIR$/app/Events/Dispatcher.php" />
       </list>
     </option>
   </component>
@@ -133,6 +134,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dispatcher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="User" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Listeners" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -144,6 +193,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\dispatcher\app\Events\User\Listeners" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -470,41 +524,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Events/User/Listeners/SendSignInEmail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50609756" vertical-offset="162" max-vertical-offset="874">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.85365856" vertical-offset="48" max-vertical-offset="912">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding>
-            <marker date="1508243714759" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1508243714759" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1508243714759" expanded="true" signature="-1:-1" placeholder=" @param Event $event ..." />
-            <marker date="1508243714759" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44817072" vertical-offset="1796" max-vertical-offset="2470">
-          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-          <folding>
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Push handler into list of actions ..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Check if the event has actions ..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Get Actions based on the name of Event ..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Run the actions ..." />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508246153830" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1508246153830" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508246153830" expanded="true" signature="-1:-1" placeholder=" @param Event $event ..." />
+            <marker date="1508246153830" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7045101" vertical-offset="117" max-vertical-offset="798">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.30487806" vertical-offset="408" max-vertical-offset="1064">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <marker date="1508246097789" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1508246097789" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508246097789" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/User/Listeners/ChangeDateAfterSignIn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28963414" vertical-offset="0" max-vertical-offset="798">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <marker date="1508245993089" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1508245993089" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508245993089" expanded="true" signature="-1:-1" placeholder=" @param Event $event ..." />
+            <marker date="1508245993089" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5640244" vertical-offset="1796" max-vertical-offset="2584">
+          <caret line="57" column="15" selection-start-line="57" selection-start-column="15" selection-end-line="57" selection-end-column="15" />
           <folding />
         </state>
       </provider>

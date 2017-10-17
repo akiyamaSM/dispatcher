@@ -1,5 +1,9 @@
 <?php
 
+use App\Events\Dispatcher;
+use App\Events\User\Listeners\ChangeDateAfterSignIn;
+use App\Events\User\Listeners\SendSignInEmail;
+use App\Events\User\UserSignedIn;
 use App\Models\User;
 
 require_once 'vendor/autoload.php';
@@ -9,8 +13,15 @@ $user->id = 1;
 $user->name = "El Houssain INANI";
 $user->email = "inanielhoussain@gmail.com";
 
-$event = new \App\Events\User\UserSignedIn($user);
-$dispatcher = new \App\Events\Dispatcher();
+$event = new UserSignedIn($user);
+$dispatcher = new Dispatcher();
 
-$dispatcher->addAction($event->getName(), new \App\Events\User\Listeners\SendSignInEmail());
-$dispatcher->action($event);
+$dispatcher->addListeners(
+    $event->getName(),
+    new SendSignInEmail()
+);
+$dispatcher->addListeners(
+    $event->getName(),
+    new ChangeDateAfterSignIn()
+);
+$dispatcher->dispatch($event);
