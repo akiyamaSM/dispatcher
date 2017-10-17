@@ -53,8 +53,8 @@ class Dispatcher {
      */
     public function action($event)
     {
-        foreach($this->getActionsByEventName($event) as $action){
-            $action->handle();
+        foreach($this->getActionsByEventName($event->getName()) as $action){
+            $action->handle($event);
         }
     }
 }

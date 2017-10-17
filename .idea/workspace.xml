@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Dispatcher.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50609756" vertical-offset="1796" max-vertical-offset="2470">
-              <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.7045101" vertical-offset="117" max-vertical-offset="798">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -45,8 +45,8 @@
         <option value="$PROJECT_DIR$/app/Events/Listener.php" />
         <option value="$PROJECT_DIR$/app/Events/User/Listeners/SendSignInEmail.php" />
         <option value="$PROJECT_DIR$/app/Events/User/UserSignedIn.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/Events/Dispatcher.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -481,18 +481,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7045101" vertical-offset="117" max-vertical-offset="798">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.44817072" vertical-offset="1796" max-vertical-offset="2470">
+          <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+          <folding>
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Push handler into list of actions ..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Check if the event has actions ..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Get Actions based on the name of Event ..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder=" Run the actions ..." />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1508244653496" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Events/Dispatcher.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50609756" vertical-offset="1796" max-vertical-offset="2470">
-          <caret line="56" column="27" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.7045101" vertical-offset="117" max-vertical-offset="798">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
           <folding />
         </state>
       </provider>

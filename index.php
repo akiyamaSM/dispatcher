@@ -13,4 +13,4 @@ $event = new \App\Events\User\UserSignedIn($user);
 $dispatcher = new \App\Events\Dispatcher();
 
 $dispatcher->addAction($event->getName(), new \App\Events\User\Listeners\SendSignInEmail());
-$dispatcher->action($event->getName());
+$dispatcher->action($event);
